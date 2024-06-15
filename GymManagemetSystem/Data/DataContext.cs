@@ -1,7 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using GymManagementSystem.Models;
+﻿using GymManagementSystem.Models;
 using GymManagemetSystem.Models;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace GymManagementSystem.Data
 {
@@ -9,7 +8,9 @@ namespace GymManagementSystem.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        public DbSet<Member> Members { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Member> Members { get; set; }
+        public DbSet<Membership> Memberships { get; set; }
+        public DbSet<Attendance> Attendances { get; set; }
     }
 }
