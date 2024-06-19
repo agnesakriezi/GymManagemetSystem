@@ -12,6 +12,10 @@ namespace GymManagementSystem
             CreateMap<Attendance, AttendanceDTO>().ReverseMap();
             CreateMap<Billing, BillingDTO>().ReverseMap();
             CreateMap<Schedule, ScheduleDTO>().ReverseMap();
+            CreateMap<Trainer,TrainerDTO>().ReverseMap();
+            CreateMap<Member, MemberDTO>().ReverseMap();
+            CreateMap<ClassRegistration, ClassRegistrationDTO>().ReverseMap();
+            CreateMap<Equipment, EquipmentDTO>().ReverseMap();
         }
     }
 }

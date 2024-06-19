@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagemetSystem", "GymManagemetSystem\GymManagemetSystem.csproj", "{92E0CD80-1AE4-411A-8C01-EF281ECA94A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagemetSystem", "GymManagemetSystem\GymManagemetSystem.csproj", "{92E0CD80-1AE4-411A-8C01-EF281ECA94A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GymManagementSystem.Tests", "GymManagementSystem.Tests", "{7ADD326C-2FBA-4DAB-BD35-ABF628B47820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagementSystem.Tests", "GymManagementSystem.Tests\GymManagementSystem.Tests.csproj", "{C2B28B79-FE1A-4843-926C-84F5179CFD2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{92E0CD80-1AE4-411A-8C01-EF281ECA94A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92E0CD80-1AE4-411A-8C01-EF281ECA94A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92E0CD80-1AE4-411A-8C01-EF281ECA94A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B28B79-FE1A-4843-926C-84F5179CFD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B28B79-FE1A-4843-926C-84F5179CFD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B28B79-FE1A-4843-926C-84F5179CFD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B28B79-FE1A-4843-926C-84F5179CFD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2B28B79-FE1A-4843-926C-84F5179CFD2F} = {7ADD326C-2FBA-4DAB-BD35-ABF628B47820}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57C68B5D-1E63-40F8-894E-AB695B11E470}
